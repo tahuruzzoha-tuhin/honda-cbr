@@ -61,6 +61,11 @@
 }
 
 
+/* Border */
+.cbr-border-primary{
+    border: 1px solid #E76F51 ;
+}
+
 /*---------------
  Navbar
  ---------------- */
@@ -71,7 +76,10 @@ header nav .navbar-brand:hover{
 
 
 
-/* Feture bike section */
+/*-------------
+ Feture bike section
+ ------------------ */
+
 section#feture-bike .title-bar{
     width: 60px;
     height: 1px;
@@ -80,3 +88,16 @@ section#feture-bike .bikes .img-gray{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
+
+
+/*-------------------
+ Latest News Section
+ -------------------- */
+
+ section#latest-news .row .col .card-text{
+     line-height: 32px;
+ }
+ section#latest-news .row .col button:hover{
+    background-color: var(--cbr-bg-secondary);
+    color: white;
+ }
