@@ -1,0 +1,82 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Norican&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* global css */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Variabls */
+:root{
+    /* background colors */
+    --cbr-bg-primary:#264653;  
+    --cbr-bg-secondary:#E76F51;  
+
+    /* text colors */
+    --cbr-text-primary:#E76F51;
+    --cbr-text-secondary:#6C6C6C;
+    --cbr-text-turnary:#E0E0E0;
+}
+
+
+/*-------------
+ Utility CSS
+ --------------- */
+
+/* background colors */
+
+.cbr-bg-primary{
+    background-color: var(--cbr-bg-primary);
+}
+.cbr-bg-secondary{
+    background-color: var(--cbr-bg-secondary);
+}
+
+/* text colors */
+.cbr-text-primary{
+    color: var(--cbr-text-primary);
+}
+.cbr-text-secondary{
+    color: var(--cbr-text-secondary);
+}
+.cbr-text-turnary{
+    color: var(--cbr-text-turnary);
+}
+
+/* font weight */
+
+.fw-medium{
+    font-weight: 500;
+}
+.fw-semibold{
+    font-weight: 600;
+}
+
+
+/* font family */
+
+.logo-font{
+    font-family: 'Norican', cursive;
+}
+
+
+/*---------------
+ Navbar
+ ---------------- */
+
+header nav .navbar-brand:hover{
+    color: var(--cbr-text-turnary);
+}
+
+
+
+/* Feture bike section */
+section#feture-bike .title-bar{
+    width: 60px;
+    height: 1px;
+}
+section#feture-bike .bikes .img-gray{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}

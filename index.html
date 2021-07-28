@@ -16,8 +16,89 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header class="cbr-bg-primary">
+
+        <!----------
+             Navbrar
+        ---------- -->
+
+        <nav class="navbar navbar-expand-lg cbr-bg-primary fixed-top">
+            <div class="container">
+              <a class="navbar-brand logo-font cbr-text-primary fs-3" href="#">Bike</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars fs-2 text-white"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white fw-medium" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fw-medium" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fw-medium" href="#">News</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link text-white fw-medium" href="#">Contact</a>
+                  </li>
+                </ul>
+                <button class="btn text-white cbr-bg-secondary px-4 ms-lg-5">Login</button>
+              </div>
+            </div>
+          </nav>
+
+          <!---------
+             Hero Area
+            ---------- -->
+        
+        <section id="hero-area" class="container">
+            <div class="row d-flex justify-content-between align-items-center py-md-5 py-2 row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <span class="text-white fw-light">Computer-controlled digital transistorized with electronic advance</span>
+                    <h1 class="text-white fw-bold display-4 mb-4">Honda CBR 300R</h1>
+                    <p class="cbr-text-turnary">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn text-white cbr-bg-secondary py-2 px-4 my-3">Purchase</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Buy Hnda CBR 300R</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body d-flex justify-content-center align-items-center">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="images/header-bike.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Honda CBR 300R</h5>
+                                      <p class="card-text">April 1, 2016 Honda Motorcycle and Scooter India Private Limited (HMSI) had launched the updated version of the Honda CBR 150R.</p>
+                                      <span class="cbr-text-primary fw-bold fs-5">Price: 5,55,000 BDT</span>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Order and Pay</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
+                
+            </div>
+        </section>
+    </header>
     
+    
+
+
+
     <!-- Bootstrap CDN for JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
