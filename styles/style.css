@@ -101,3 +101,16 @@ section#feture-bike .bikes .img-gray{
     background-color: var(--cbr-bg-secondary);
     color: white;
  }
+
+ /*-------------------
+ testimonials
+ -------------------- */
+
+ section#testimonials .container .row .col .card-image img{
+     width: 150px;
+     height: 150px;
+ }
+ section#testimonials .container .row .col i{
+     font-size: 22px;
+     color: #E77C40;
+ }
