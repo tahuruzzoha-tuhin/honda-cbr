@@ -39,13 +39,16 @@
                             <a class="nav-link active text-white fw-medium" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-medium" href="#">Shop</a>
+                            <a class="nav-link text-white fw-medium" href="#shop">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-medium" href="#">News</a>
+                            <a class="nav-link text-white fw-medium" href="#latest-news">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-medium" href="#testimonials">Testimonials</a>
                         </li>
                         <li class="nav-item me-5">
-                            <a class="nav-link text-white fw-medium" href="#">Contact</a>
+                            <a class="nav-link text-white fw-medium" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <button class="btn text-white cbr-bg-secondary px-4 ms-lg-5">Login</button>
@@ -283,138 +286,210 @@
         <!-------------
              FAQ section
             ------------- -->
-        
-            <section id="faq" class="py-5">
-                <div class="container">
-                    <div class="section-title">
-                        <h1 class="display-5 py-5 text-center fw-semibold">Frequently Asked <span class="cbr-text-primary my-5">Questions</span></h1>
-                    </div>
-                    <div class="faqs">
-                        <div class="row row-cols-1 row-cols-lg-2 d-flex justify-content-center align-items-center">
-                            <div class="col mb-4">
-                                <img src="images/faq.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="col">
-                                <div class="accordion px-sm-4" id="accordionExample">
-                                    <div class="accordion-item p-sm-2 mb-4">
-                                      <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+        <section id="faq" class="py-5">
+            <div class="container">
+                <div class="section-title">
+                    <h1 class="display-5 py-5 text-center fw-semibold">Frequently Asked <span
+                            class="cbr-text-primary my-5">Questions</span></h1>
+                </div>
+                <div class="faqs">
+                    <div class="row row-cols-1 row-cols-lg-2 d-flex justify-content-center align-items-center">
+                        <div class="col mb-4">
+                            <img src="images/faq.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col">
+                            <div class="accordion px-sm-4" id="accordionExample">
+                                <div class="accordion-item p-sm-2 mb-4">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
                                             What are the most important things I should
                                             know about riding a bike?
                                         </button>
-                                      </h2>
-                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                          <p class="cbr-text-secondary">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                                            <p class="cbr-text-secondary">Safety First! Always obey the rules of the
+                                                road. Obey all traffic signals, signs, and laws. Get in the mindset of
+                                                “driving” your bike—not just “riding” your bike. This will help you be a
+                                                more focused and legally compliant bike rider. </p>
                                         </div>
-                                      </div>
                                     </div>
-                                    <div class="accordion-item border-top p-sm-2 mb-4">
-                                      <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            How can I tell if my helmet is old and I need a 
+                                </div>
+                                <div class="accordion-item border-top p-sm-2 mb-4">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            How can I tell if my helmet is old and I need a
                                             new one?
                                         </button>
-                                      </h2>
-                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p class="cbr-text-secondary">It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the , though the transition does limit overflow.</p>
+                                            <p class="cbr-text-secondary">It is hidden by default, until the collapse
+                                                plugin adds the appropriate classes that we use to style each element.
+                                                These classes control the overall appearance, as well as the showing and
+                                                hiding via CSS transitions. You can modify any of this with custom CSS
+                                                or overriding our default variables. It's also worth noting that just
+                                                about any HTML can go within the , though the transition does limit
+                                                overflow.</p>
                                         </div>
-                                      </div>
                                     </div>
-                                    <div class="accordion-item border-top p-sm-2 mb-4">
-                                      <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                </div>
+                                <div class="accordion-item border-top p-sm-2 mb-4">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
                                             My bike has been in storage is it safe to ride?
                                         </button>
-                                      </h2>
-                                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p class="cbr-text-secondary">It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the , though the transition does limit overflow.</p>
+                                            <p class="cbr-text-secondary">It is hidden by default, until the collapse
+                                                plugin adds the appropriate classes that we use to style each element.
+                                                These classes control the overall appearance, as well as the showing and
+                                                hiding via CSS transitions. You can modify any of this with custom CSS
+                                                or overriding our default variables. It's also worth noting that just
+                                                about any HTML can go within the , though the transition does limit
+                                                overflow.</p>
                                         </div>
-                                      </div>
                                     </div>
-                                    <div class="accordion-item border-top p-sm-2 mb-4">
-                                      <h2 class="accordion-header" id="headingfour">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                </div>
+                                <div class="accordion-item border-top p-sm-2 mb-4">
+                                    <h2 class="accordion-header" id="headingfour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapsefour"
+                                            aria-expanded="false" aria-controls="collapsefour">
                                             What rules should I follow when riding my bike?
                                         </button>
-                                      </h2>
-                                      <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="heafour" data-bs-parent="#accordionExample">
+                                    </h2>
+                                    <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="heafour"
+                                        data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                          <p class="cbr-text-secondary">It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the , though the transition does limit overflow.</p>
+                                            <p class="cbr-text-secondary">It is hidden by default, until the collapse
+                                                plugin adds the appropriate classes that we use to style each element.
+                                                These classes control the overall appearance, as well as the showing and
+                                                hiding via CSS transitions. You can modify any of this with custom CSS
+                                                or overriding our default variables. It's also worth noting that just
+                                                about any HTML can go within the , though the transition does limit
+                                                overflow.</p>
                                         </div>
-                                      </div>
                                     </div>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- Shop Section -->
-            <section id="shop" class="py-5">
-                <div class="container">
-                    <div class="section-title">
-                        <h1 class="display-5 fw-semibold text-center">More External Products <span class="cbr-text-primary">On Our Collection</span></h1>
-                    </div>
-                    <div class="py-5">
-                        <div class="row row-cols-1 row-cols-sm-2 g-4 row-cols-md-3 row-cols-xl-4">
-                            <div class="col">
-                                <div class="card h-100">
-                                  <div class="thumbnail p-3">
+        <!---------
+                 Shop Section
+                -------------- -->
+
+        <section id="shop" class="py-5">
+            <div class="container">
+                <div class="section-title">
+                    <h1 class="display-5 fw-semibold text-center">More External Products <span
+                            class="cbr-text-primary">On Our Collection</span></h1>
+                </div>
+                <div class="py-5">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4 row-cols-md-3 row-cols-xl-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="thumbnail p-3">
                                     <img src="images/helmet-1.png" class="card-img-top" alt="...">
-                                  </div>
-                                  <div class="card-body">
-                                    <h5 class="card-title font-bold">Best White Goat In BD</h5>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title font-bold">Best White & black Helmet</h5>
                                     <h5 class="card-title fw-bold cbr-text-primary">Price: 5,000 TK</h5>
                                     <button class="btn cbr-bg-primary text-white w-100">Buy Now</button>
-                                  </div>
                                 </div>
-                            </div> 
-                            <div class="col">
-                                <div class="card h-100">
-                                  <div class="thumbnail p-3">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="thumbnail p-3">
                                     <img src="images/helmet-2.png" class="card-img-top" alt="...">
-                                  </div>
-                                  <div class="card-body">
-                                    <h5 class="card-title font-bold">Best White Goat In BD</h5>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title font-bold">Best White & red helmet</h5>
                                     <h5 class="card-title fw-bold cbr-text-primary">Price: 10,400 TK</h5>
                                     <button class="btn cbr-bg-primary text-white w-100">Buy Now</button>
-                                  </div>
                                 </div>
-                            </div> 
-                            <div class="col">
-                                <div class="card h-100">
-                                  <div class="thumbnail p-3">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="thumbnail p-3">
                                     <img src="images/helemt-3.png" class="card-img-top" alt="...">
-                                  </div>
-                                  <div class="card-body">
-                                    <h5 class="card-title font-bold">Best White Goat In BD</h5>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title font-bold">Best White & blue helmet</h5>
                                     <h5 class="card-title fw-bold cbr-text-primary">Price: 5,500 TK</h5>
                                     <button class="btn cbr-bg-primary text-white w-100">Buy Now</button>
-                                  </div>
                                 </div>
-                            </div> 
-                            <div class="col">
-                                <div class="card h-100">
-                                  <div class="thumbnail p-3">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <div class="thumbnail p-3">
                                     <img src="images/helmet-1.png" class="card-img-top" alt="...">
-                                  </div>
-                                  <div class="card-body">
-                                    <h5 class="card-title font-bold">Best White Goat In BD</h5>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title font-bold">Best White & black helmet</h5>
                                     <h5 class="card-title fw-bold cbr-text-primary">Price: 5,000 TK</h5>
                                     <button class="btn cbr-bg-primary text-white w-100">Buy Now</button>
-                                  </div>
                                 </div>
-                            </div> 
-                        </div> 
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </section>
+            </div>
+            </div>
+        </section>
 
+        <!---------
+             Contact section
+            -------------------- -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h1 class="display-5 fw-semibold text-center py-5">Contact Us</h1>
+                </div>
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="col-12 col-lg-6">
+                        <h3>Visit on Google Map</h3>
+                        <div class="overflow-hidden d-flex justify-content-center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57930.48659554941!2d89.33518714426341!3d24.84145521027625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc54e7e81df441%3A0x27133ed921fe73f4!2sBogura!5e0!3m2!1sen!2sbd!4v1627503888670!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <form class="form">
+                            <label class="py-1" for="">Your Name</label>
+                            <input type="text" class="form-control" required>
+                            <label class="py-1" for="">Your Email</label>
+                            <input type="email" class="form-control" required>
+                            <label class="py-1" for="">Your Phone Number</label>
+                            <input type="number" class="form-control" required>
+                            <label class="py-1" for="">Subject</label>
+                            <input type="text" class="form-control" required>
+                            <label class="py-1" for="">Your Message</label>
+                            <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+
+                            <button type="submit" class="btn cbr-bg-secondary my-3 text-white px-5 py-2"> Send Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer class="cbr-bg-turnary py-5">
@@ -440,7 +515,7 @@
                 </div>
                 <div>
                     <h2 class="cbr-text-secondary pb-4">Get the App</h2>
-                    <a  href="#"><img class="mb-3" src="images/app-store.png" alt=""></a> <br>
+                    <a href="#"><img class="mb-3" src="images/app-store.png" alt=""></a> <br>
                     <a href="#"><img src="images/play-store.png" alt=""></a>
                 </div>
             </div>
