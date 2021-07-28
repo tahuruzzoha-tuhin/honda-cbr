@@ -12,6 +12,7 @@
     /* background colors */
     --cbr-bg-primary:#264653;  
     --cbr-bg-secondary:#E76F51;  
+    --cbr-bg-turnary:#0B0D17;  
 
     /* text colors */
     --cbr-text-primary:#E76F51;
@@ -31,6 +32,9 @@
 }
 .cbr-bg-secondary{
     background-color: var(--cbr-bg-secondary);
+}
+.cbr-bg-turnary{
+    background-color: var(--cbr-bg-turnary);
 }
 
 /* text colors */
@@ -113,4 +117,20 @@ section#feture-bike .bikes .img-gray{
  section#testimonials .container .row .col i{
      font-size: 22px;
      color: #E77C40;
+ }
+
+
+
+ /* FAQ section */
+ section#faq .container .row .col .accordion .accordion-button{
+     font-weight: 500;
+     font-size: 1rem;
+     line-height: 28px;
+     color: black;
+     background-color: white;
+ }
+ section#faq .container .row .col .accordion .accordion-button:focus{
+    box-shadow: none;
+    color: black;
+    background-color: white;
  }
